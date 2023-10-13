@@ -16,7 +16,7 @@ const NavbarWrapper = styled.nav`
 	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 30px;
+	padding: 20px 40px;
 	position: relative;
 
 	@media (max-width: 768px) {
