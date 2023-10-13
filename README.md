@@ -5,7 +5,7 @@ This application is a task from Shahid to Abdallah Marei for evalution purposes.
 The application is built using React and multiple tools were used to assist in building thie application, these tools are `Redux-toolkit`, `react-router`, `styled-components` and `fort awesome` for the icons.
 
 ## To run this application
-The user must first clone this repo, use `npm i` to install all the required packages and then use `npm start` to start the application.\
+The user must first clone this repo, cd into the shahid-react-task folder then run `npm i` to install all the required packages and then use `npm start` to start the application.\
 Then open [http://localhost:3000](http://localhost:3000).
 
 ## Application Description
