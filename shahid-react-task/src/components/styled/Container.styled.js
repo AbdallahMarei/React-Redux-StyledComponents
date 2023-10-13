@@ -4,7 +4,7 @@ const Container = styled.div`
     margin: 0 auto;
     max-width: 100%;
     padding: 0 20px;
-    width: 1500px;
+    width: 1800px;
 `;
 
 const MovieContainer = styled.div`
