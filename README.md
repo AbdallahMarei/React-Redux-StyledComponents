@@ -1,4 +1,4 @@
-# Shahid React Task
+# Redux Training
 
 ## Application Overview
 This application is to build an application using React, Redux and styled components.\

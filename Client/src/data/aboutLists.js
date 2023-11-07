@@ -1,8 +1,8 @@
 export const aboutLists = [
   {
     content:
-      "This application is a task from Shahid for Abdallah Marei to assess his level in React, it uses Redux, React-Router and styled components",
-    key: "Shahid task",
+      "This application is a training project to assess my level in React, the project uses Redux, React-Router and styled components",
+    key: "Overview",
   },
   {
     content:
