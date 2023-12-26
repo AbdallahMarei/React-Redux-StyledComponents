@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/React-Redux-StyledComponents/static/css/main.6892fc5c.css",
+    "main.js": "/React-Redux-StyledComponents/static/js/main.221ae48d.js",
+    "index.html": "/React-Redux-StyledComponents/index.html",
+    "main.221ae48d.js.map": "/React-Redux-StyledComponents/static/js/main.221ae48d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6892fc5c.css",
+    "static/js/main.221ae48d.js"
+  ]
+}
