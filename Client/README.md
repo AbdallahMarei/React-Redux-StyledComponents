@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# Redux Training
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Application Overview
+This application is to build an application using React, Redux and styled components.\
+The application is built using React and multiple tools were used to assist in building thie application, these tools are `Redux-toolkit`, `react-router`, `styled-components` and `fort awesome` for the icons.
 
-## Available Scripts
+## To run this application
+The user must first clone this repo, cd into the client folder then run `npm i` to install all the required packages and then use `npm start` to start the application.\
+Then open [http://localhost:3000](http://localhost:3000).
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Application Description
+1. `Redux-toolkit` was used to store the darkMode state and the styles of the elements depending on the theme, `LocalStorage` was used to keep the theme persistent and the `ThemeProvider` from styled components was used to apply thoses styles.
+2. The Blog page uses a custom hook to fetch data from a movies api and dynamically renderes them on the page.
+3. The Contact page has a contact us form with validation that was done without the use of libraries.
+4. The Home page has a welcome message as well as conditionally rendering a component based on the theme.
+5. The About page is just a page that shows some info on the application.
+6. There is a 404 page is the user decides to go to a route that isn't used by the application.
+7. The application is responsive.
+8. No libraries were used other than the ones mentioned in the overview.
